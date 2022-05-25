@@ -5,6 +5,7 @@ import {
   PropertyList,
   FeaturedProperties,
   MailList,
+  Footer,
 } from '../../components';
 import './index.css';
 
@@ -20,6 +21,7 @@ const Home = () => {
         <h1 className='homeTitle'>Homes guest love</h1>
         <FeaturedProperties />
         <MailList />
+        <Footer />
       </div>
     </div>
   );
