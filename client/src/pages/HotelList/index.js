@@ -1,9 +1,11 @@
-import { useParams } from 'react-router-dom';
+import { Navbar, Header } from '../../components';
+import './index.css';
 
 const Hotels = () => {
   return (
     <div>
-      <h1>Hotels</h1>
+      <Navbar />
+      <Header type='list' />
     </div>
   );
 };
