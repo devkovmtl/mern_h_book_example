@@ -1,4 +1,4 @@
-import { Navbar, Header } from '../../components';
+import { Navbar, Header, Featured } from '../../components';
 import './index.css';
 
 const Home = () => {
@@ -6,6 +6,9 @@ const Home = () => {
     <div>
       <Navbar />
       <Header />
+      <div className='homeContainer'>
+        <Featured />
+      </div>
     </div>
   );
 };
