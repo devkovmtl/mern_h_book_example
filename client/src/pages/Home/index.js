@@ -1,7 +1,11 @@
+import { Navbar, Header } from '../../components';
+import './index.css';
+
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Navbar />
+      <Header />
     </div>
   );
 };
