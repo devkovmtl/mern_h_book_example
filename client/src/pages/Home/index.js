@@ -1,4 +1,10 @@
-import { Navbar, Header, Featured, PropertyList } from '../../components';
+import {
+  Navbar,
+  Header,
+  Featured,
+  PropertyList,
+  FeaturedProperties,
+} from '../../components';
 import './index.css';
 
 const Home = () => {
@@ -10,6 +16,8 @@ const Home = () => {
         <Featured />
         <h1 className='homeTitle'>Browse by property type</h1>
         <PropertyList />
+        <h1 className='homeTitle'>Homes guest love</h1>
+        <FeaturedProperties />
       </div>
     </div>
   );
