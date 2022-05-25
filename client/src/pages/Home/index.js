@@ -1,4 +1,4 @@
-import { Navbar, Header, Featured } from '../../components';
+import { Navbar, Header, Featured, PropertyList } from '../../components';
 import './index.css';
 
 const Home = () => {
@@ -8,6 +8,8 @@ const Home = () => {
       <Header />
       <div className='homeContainer'>
         <Featured />
+        <h1 className='homeTitle'>Browse by property type</h1>
+        <PropertyList />
       </div>
     </div>
   );
