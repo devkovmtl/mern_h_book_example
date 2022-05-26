@@ -2,8 +2,7 @@ import { Router } from 'express';
 
 const router = Router();
 
-router.get('/', (req, res) => {
-  res.send('/Hotels');
-});
+// CREATE
+router.post('/', (req, res) => {});
 
 export default router;
